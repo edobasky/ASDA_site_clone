@@ -1,0 +1,83 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+#header-div
+{
+    width:100%;
+    height:65px;
+    background-color:lightblue;
+}
+
+#header-nav
+{
+    width:1200px;
+    background-color:rgb(255, 255, 255);
+    margin:0 auto;
+    height:65px;
+}
+
+#logo
+{
+    width:130px;
+    margin-top:10px;
+    float:left;
+}
+
+#item-search
+{
+    font-size:15px;
+    width:350px;
+    height:30px;
+    margin-left:20px;
+    margin-right:-5px;
+    padding-bottom:2px;
+    position:relative;
+    top:15px;
+    float:left;
+}
+
+#search-icon
+{
+    width:40px;
+    position:relative;
+    top:12px;
+    float:left;
+}
+
+#sign-in-button
+{
+    float:right;
+    width:75px;
+    height:40px;
+    background:#0073b1;
+    color:#fff;
+    border:none;
+    margin-top: 12px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+#sign-in-button:hover
+{
+    background:#0a4768;
+}
+
+.nav-links
+{
+    text-decoration:none;
+    font-weight:bold;
+    float:right;
+    color:black;
+    font-family:Poppins;
+}
+
+.register
+{
+    margin-top:18px;
+    font-size:18px;
+    margin-right:40px;
+}
+
