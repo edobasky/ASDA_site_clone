@@ -42,7 +42,9 @@ body
     position:relative;
     top:15px;
     float:left;
+    outline:none;
 }
+
 
 #search-icon
 {
@@ -197,4 +199,233 @@ body
 {
     width:1150px;
     margin:0 auto;
+}
+
+#price-lock-div
+{
+    width:1150px;
+    margin:0 auto;
+    height:300px;
+    background:#d43030;
+    cursor: pointer;
+
+}
+
+
+#lock-div
+{
+    width:345px;
+}
+
+#lock-div-image
+{
+    padding-top:10px;
+    float:left;
+}
+
+#low-price-div
+{
+    width:805px;
+    float:right;
+}
+
+#low-price-div p
+{
+    text-align:center;
+    font-family:poppins;
+    font-size: 64px;
+    color:white;
+    line-height: 1;
+    position:relative;
+    top:70px;
+    font-weight:bold;
+}
+
+
+#low-price-button
+{
+    background:#68a51c;
+    padding:13px;
+    width:210px;
+    border:none;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    position:relative;
+    left:40%;
+    top:75px;
+    outline:none;
+
+}
+
+#low-price-button:hover
+{
+    background:#3f680c;
+    cursor: pointer;
+}
+
+#more-links-div
+{
+    
+    height:90px;
+    width:1150px;
+}
+
+.more-link
+{
+    width:20%;
+    background:white;
+    height:65px;
+    position:relative;
+    top:14px;
+    float:left;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.more-link:hover
+{
+    cursor: pointer;
+    border:2px #68a51c solid;
+}
+
+.more
+{
+    margin-left:8px;
+    width:19%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.more:hover
+{
+    cursor: pointer;
+    border:2px #68a51c solid;
+}
+
+.more1
+{
+    width:19%;
+}
+
+.more1 p
+{
+    margin-left:30px;
+}
+#cross-image
+{
+    width:25%;
+    float:left;
+}
+
+#more-links-div p
+{
+   font-family:poppins; 
+   font-size:13px;
+   line-height: 1.3;
+   padding:15px;
+}
+
+#shop-safe-div
+{
+    width:1150px;
+    height:150px;
+    background:rgb(211,211,218);
+    background: linear-gradient(
+        0deg
+        , rgba(211,211,218,1) 0%, rgba(255,255,255,1) 50%, rgba(211,211,218,1) 100%);
+    border-radius:10px;
+    border:4px solid #68a51c;
+    
+}
+
+#shop-safe-container
+{
+    text-align:center;
+    padding-top:25px;
+    font-family:poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#shop-id
+{
+    font-size:28px;
+    font-weight:bold;
+    line-height: 30px;
+}
+
+#find-out
+{
+    background:#68a51c;
+    padding:13px;
+    width:180px;
+    border:none;
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    outline:none;
+    border-radius:5px;
+}
+
+#image1-container
+{
+    display:flex;
+}
+
+#img1
+{
+    width:550px;
+}
+
+#img2
+{
+    width:280px;
+}
+
+#img3
+{
+    height:300px;
+    padding-left:15px;
+}
+
+#img4
+{
+    height:300px;
+    padding-top:5px;
+    
+}
+
+#image-left
+{
+    margin-top:15px;
+}
+
+#image-right
+{
+    margin-top:15px;
+    padding-left:20px;
+}
+
+
+#image2-container
+{
+    margin-top:15px;
+    display:flex; 
+    justify-content: space-between; 
+}
+
+#img5
+{
+    height:300px;
+    width:550px;
+}
+
+#img6
+{
+    height:300px;
+    position:relative;
+    left:10px;
+}
+
+.img-border:hover
+{
+    border:2px solid #68a51c;
 }
