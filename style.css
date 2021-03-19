@@ -190,6 +190,12 @@ body
     top:2px;
 }
 
+.more-options
+{
+    border-right:1px #3d3d3d solid;
+    float:right;
+}
+
 .links
 {
     margin-left: -3px;
@@ -510,3 +516,60 @@ footer
     margin-top:10px;
 }
 
+
+#mid-footer-container
+{
+    width:1150px;
+    margin:0 auto;
+}
+
+#separator
+{
+    width:1150px;
+    height:80px;
+    background:#3d3d3d;
+}
+
+#asda-footer
+{
+
+    width:200px;
+    height:300px;
+    border:2px solid rgb(100, 107, 89);
+    float:left;
+}
+
+#asda-footer-right
+{
+    width:940px;
+    height:300px;
+    border:2px solid rgb(100, 107, 89);
+    float:right;
+}
+
+.footer-sizing
+{
+    width:150px;
+    height:300px;
+    border:1px solid rgb(100, 107, 89);
+    float:left;
+}
+
+#asda-footer p
+{
+    margin-top:10px;
+    font-size:15x;
+}
+
+#social-media-icons
+{
+    position:relative;
+    top:20px;
+    margin-left:-5px;
+}
+
+.social-icons:hover
+{
+    background:#68a51c;
+    cursor:pointer;
+} 
