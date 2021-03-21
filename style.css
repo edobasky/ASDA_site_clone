@@ -472,6 +472,14 @@ body
 {
     padding:5px;
 }
+
+.icon-class:hover
+{
+     color:#68a51c;
+     cursor: pointer;
+}
+
+
 #icons8
 {
     margin-left:15px;
@@ -496,6 +504,11 @@ footer
     font-size:15px;
     outline:none;
     border-radius:5px;
+}
+
+#find-out-more:hover
+{
+    cursor:pointer;
 }
 
 #find-out-div
@@ -527,7 +540,7 @@ footer
 {
     width:1150px;
     height:80px;
-    background:#3d3d3d;
+  /*  background:#3d3d3d; */
 }
 
 #asda-footer
@@ -535,7 +548,7 @@ footer
 
     width:200px;
     height:300px;
-    border:2px solid rgb(100, 107, 89);
+   /* border:2px solid rgb(100, 107, 89); */
     float:left;
 }
 
@@ -543,16 +556,21 @@ footer
 {
     width:940px;
     height:300px;
-    border:2px solid rgb(100, 107, 89);
+   /* border:2px solid rgb(100, 107, 89); */
     float:right;
 }
 
 .footer-sizing
 {
-    width:150px;
+    width:154px;
     height:300px;
-    border:1px solid rgb(100, 107, 89);
+/*    border:1px solid rgb(100, 107, 89);   */
     float:left;
+}
+
+.footer-sizing a
+{
+    text-decoration: none;
 }
 
 #asda-footer p
@@ -573,3 +591,250 @@ footer
     background:#68a51c;
     cursor:pointer;
 } 
+
+#locator-icon
+{
+  
+    height:30px;
+  
+}
+
+#locator-icon img
+{
+    height:30px;
+    margin-top:30px;
+}
+
+#locator-icon a
+{
+    position:relative;
+    bottom:10px;
+    font-size:15px;
+    text-decoration: none;
+}
+
+#jobs-icon img
+{
+    height:25px;
+    margin-top:60px;
+}
+
+#jobs-icon a
+{
+    position:relative;
+    bottom:8px;
+    font-size:15px; 
+    text-decoration: none;
+    color:black;
+}
+
+#jobs-icon a:hover
+{
+    color:#68a51c;
+    cursor: pointer;
+}
+
+#locator-icon a:hover
+{
+    color:#68a51c;
+    cursor: pointer;
+}  
+
+.footer-p1 p
+{
+    color:black;
+    margin:10px 0;
+    font-size:12px;
+    font-style:bold;
+}
+
+.footer-p1 p:hover
+{
+    color:#578b16;
+}
+
+.about-asda
+{
+    font-size:18px;
+    color:#578b16;
+    margin-bottom:10px;
+}
+
+.footer-link
+{
+    padding:10px 0;
+}
+
+#about-asda
+{
+    font-size:18px;
+    color:#578b16;
+    margin-bottom:30px !important;
+}
+
+
+
+#groceries
+{
+    font-size:18px;
+    color:#578b16;
+    margin-bottom:25px !important;
+}
+
+.footer-p2 p
+{
+    margin:10px 0;
+    color:black;
+}
+
+.footer-p2 p:hover
+{
+    color:#578b16;
+}
+
+.footer-p2 a
+{
+    text-decoration:none;
+}
+
+#george
+{
+    font-size:18px;
+    color:#578b16;
+    margin-bottom:25px !important;
+}
+
+.footer-p3 p
+{
+    margin:10px 0;
+    color:black;
+}
+
+.footer-p3 p:hover
+{
+    color:#578b16;
+}
+
+.footer-p3 a
+{
+    text-decoration:none;
+}
+
+
+#Opticians
+{
+    font-size:18px;
+    color:#578b16;
+    margin-bottom:25px !important;
+}
+
+.footer-p4 p
+{
+    margin:10px 0;
+    color:black;
+}
+
+.footer-p4 p:hover
+{
+    color:#578b16;
+}
+
+.footer-p4 a
+{
+    text-decoration:none;
+}
+
+
+#money
+{
+    font-size:18px;
+    color:#578b16;
+    margin-bottom:25px !important;
+}
+
+.footer-p5 p
+{
+    margin:10px 0;
+    color:black;
+}
+
+.footer-p5 p:hover
+{
+    color:#578b16;
+}
+
+.footer-p5 a
+{
+    text-decoration:none;
+}
+
+
+#gift-cards
+{
+    font-size:18px;
+    color:#578b16;
+    margin-bottom:25px !important;
+}
+
+.footer-p6 p
+{
+    margin:10px 0;
+    color:black;
+}
+
+.footer-p6 p:hover
+{
+    color:#578b16;
+}
+
+.footer-p6 a
+{
+    text-decoration:none;
+}
+
+
+#last-footer-separator
+{
+    width:1150px;
+    height:80px;
+    margin:0 auto;
+}
+
+#final-div
+{
+    width:1150px;
+    margin:0 auto;
+    margin-bottom:-10px;
+
+}
+
+#footer-last
+{
+    width:1000px;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+#footer-last p
+{
+    font-size:13px;
+    color:black;
+    font-weight:bold;
+}
+#footer-last a
+{
+    text-decoration:none;
+}
+
+#footer-last p:hover
+{
+    color:#578b16;
+}
+
+#up-arrow-div
+{
+    float:right;
+    position:relative;
+    bottom:45px;
+}
